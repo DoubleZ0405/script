@@ -1,16 +1,5 @@
 <?php
-/***************************************************************************
- *
- * Copyright (c) 2020 Tencent.com, Inc. All Rights Reserved
- * Tencent open optical platform(Toop)
- **************************************************************************/
 
-/**
- * Author: quanweizhou@tencent.com
- * Date: 2020/7/10
- * Time: 3:47 PM
- * Brief:分配IP /26段地址 /30裂解 for PC4
- */
 
 define ( 'ROOT_PATH', dirname ( __FILE__ ) );
 
