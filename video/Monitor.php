@@ -1,21 +1,9 @@
 <?php
-/***************************************************************************
- *
- * Copyright (c) 2014 Baidu.com, Inc. All Rights Reserved
- *
- **************************************************************************/
-
-/**
- * @author: zhouquanwei@baidu.com
- * Date: 2017/9/12
- * Time: ÏÂÎç3:21
- * ÊÓÆµÏÂ¼Ü¼à¿ØÏµÍ³
- */
 
 /**
  * @param $params
  * @return mixed
- * // ·¢ËÍÓÊ¼þº¯Êý
+ * // ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 function sendEmail($params) {
     $curl = curl_init();
@@ -29,7 +17,7 @@ function sendEmail($params) {
     curl_close($curl);
     return $output;
 }
-// »ñÈ¡³É¹¦»òÊ§°ÜµÄÈÕÖ¾
+// ï¿½ï¿½È¡ï¿½É¹ï¿½ï¿½ï¿½Ê§ï¿½Üµï¿½ï¿½ï¿½Ö¾
 $successLog = file_get_contents('./DelVideoInfo.log');
 $errorLog = '';
 
@@ -38,21 +26,21 @@ if (empty($successLog) && empty($errorLog)) {
 }
 
 //$successLog = iconv("utf-8", "gb2312",$successLog);
-//$errorLog = iconv("utf-8", "gb2312",'edu_college Êý¾Ý±í±¸·ÝÊ§°Ü£¡');
+//$errorLog = iconv("utf-8", "gb2312",'edu_college ï¿½ï¿½ï¿½Ý±ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½');
 //$errorLog = str_replace("\n","<br/>",$errorLog);
-// ×é×°Êý¾Ý
-$message = "<font color='red'>ÔËÐÐ³É¹¦Êý¾ÝÈÕÖ¾:</font><br>" . (empty($successLog) ? '<font color="red">ÔÝÎÞÊý¾Ý!</font>' : $successLog) .
-"<br>" . "<font color='red'>ÔËÐÐÊ§°ÜÊý¾ÝÈÕÖ¾:</font><br>" . (empty($errorLog) ? '<font color="red">ÔÝÎÞÊý¾Ý!</font>' : $errorLog);
+// ï¿½ï¿½×°ï¿½ï¿½ï¿½ï¿½
+$message = "<font color='red'>ï¿½ï¿½ï¿½Ð³É¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾:</font><br>" . (empty($successLog) ? '<font color="red">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!</font>' : $successLog) .
+"<br>" . "<font color='red'>ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾:</font><br>" . (empty($errorLog) ? '<font color="red">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!</font>' : $errorLog);
 
 $params = array (
     'to' => 'zhouquanwei@baidu.com,wanghan@baidu.com,donglu01@baidu.com.kouyanbin@baidu.com,zhangguangxi@baidu.com,yangfujia@baidu.com,weixinxin@baidu.com',
     'from' => 'zhouquanwei@baidu.com',
-    'subject' => "gb2312", "utf-8",'¡¾ÎÄ¿âÊÓÆµ¡¿×Ô¶¯É¾³ýÊÓÆµÍ¨±¨:'.'--' . date("Y-m-d H:i:s"),
+    'subject' => "gb2312", "utf-8",'ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½Æµï¿½ï¿½ï¿½Ô¶ï¿½É¾ï¿½ï¿½ï¿½ï¿½ÆµÍ¨ï¿½ï¿½:'.'--' . date("Y-m-d H:i:s"),
     'message' => $message,
 );
 
 sendEmail($params);
-// É¾³ýÈÕÖ¾
+// É¾ï¿½ï¿½ï¿½ï¿½Ö¾
 system('rm -rf ./DelVideoInfo.log');
 
 ?>

@@ -1,10 +1,5 @@
 <?php
-/**
- * @author: zhouquanwei@baidu.com
- * Date: 2017/11/9
- * Time: 下午2:59
- * 文库视频推送大搜接口
- */
+
 Bd_Init::init();
 Bd_LayerProxy::init(Bd_Conf::getConf('/layerproxy/'));
 Bd_Log::trace('begin');

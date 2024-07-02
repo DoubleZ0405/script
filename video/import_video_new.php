@@ -1,19 +1,5 @@
 <?php
 
-/*************************************************************************** 
- * 
- * Copyright (c) 2015 Baidu.com, Inc. All Rights Reserved
- * 
- **************************************************************************/ 
-
-/** 
- * @author wanghan(wanghan@baidu.com)
- * @date 2015/08/04 17:45:48
- * @desc
- * @add zhouquanwei@baidu.com
- * 视频入库&删除自动化入口
- **/
-
 Bd_Init::init();
 Bd_LayerProxy::init(Bd_Conf::getConf('/layerproxy/'));
 

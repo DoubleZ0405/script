@@ -1,10 +1,5 @@
 <?php
-/**
- * @author: zhouquanwei@baidu.com
- * Date: 2017/7/31
- * Time: 下午3:34
- * @brief 计算wap端精选视频
- */
+
 Bd_Init::init();
 Bd_LayerProxy::init(Bd_Conf::getConf('/layerproxy/'));
 Bd_Log::trace('begin');

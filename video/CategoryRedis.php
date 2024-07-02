@@ -1,9 +1,5 @@
 <?php
-/**
- * @author: zhouquanwei@baidu.com
- * Date: 2017/7/31
- * Time: 下午3:34
- */
+
 Bd_Init::init();
 Bd_LayerProxy::init(Bd_Conf::getConf('/layerproxy/'));
 Bd_Log::trace('begin');

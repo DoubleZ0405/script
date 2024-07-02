@@ -1,10 +1,4 @@
 <?php
-/**
- * @name 文库视频阿拉丁增量
- * 每天的10点执行
- * @author zhouquanwei@baidu.com
- * @since 2017/9/18
- */
 
 
 class ApplicationUpdate {

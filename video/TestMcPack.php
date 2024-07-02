@@ -1,11 +1,5 @@
 <?php
-/**
- * Author: zhouquanwei@baidu.com
- * Date: 2018/10/30
- * Time: 上午11:22
- * Brief:
- */
-//require_once '/home/work/orp/app/amis/lib/bd/passport/interact/Socket.php';
+
 $test = new TestMcPack();
 $test->useSocket();
 
