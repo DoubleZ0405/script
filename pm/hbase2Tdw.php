@@ -1,16 +1,5 @@
 <?php
-/***************************************************************************
- *
- * Copyright (c) 2020 Tencent.com, Inc. All Rights Reserved
- * Tencent open optical platform(Toop)
- **************************************************************************/
 
-/**
- * Author: quanweizhou@tencent.com
- * Date: 2021/4/9
- * Time: 3:34 PM
- * Brief:
- */
 require __DIR__ . '/../vendor/autoload.php';
 
 use HelloBase\Connection;

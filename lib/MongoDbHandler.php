@@ -1,22 +1,5 @@
 <?php
-/***************************************************************************
- *
- * Copyright (c) 2020 Tencent.com, Inc. All Rights Reserved
- * Tencent open optical platform(Toop)
- **************************************************************************/
 
-/**
- * Author: quanweizhou@tencent.com
- * Date: 2021/1/22
- * Time: 10:20 AM
- * Brief: Logs to a MongoDB database.
- * usage example:
- *
- *   $log = new Logger('application');
- *   $mongodb = new MongoDBHandler(new \Mongo("mongodb://localhost:27017"), "logs", "prod");
- *   $log->pushHandler($mongodb);
- *
- */
 
 class MongoDBHandler extends AbstractProcessingHandler {
     protected $mongoCollection;

@@ -1,7 +1,7 @@
 # 在官方的镜像上增加简单
 FROM php:7.3.2-fpm
 
-MAINTAINER  Zhou "quanweizhou@tencent.com"
+MAINTAINER  
 
 # 安装扩展
 # https://github.com/docker-library/php/issues/662

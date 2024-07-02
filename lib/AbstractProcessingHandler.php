@@ -1,21 +1,5 @@
 <?php
-/***************************************************************************
- *
- * Copyright (c) 2020 Tencent.com, Inc. All Rights Reserved
- * Tencent open optical platform(Toop)
- **************************************************************************/
 
-/**
- * Author: quanweizhou@tencent.com
- * Date: 2021/1/22
- * Time: 10:21 AM
- * Brief:
-namespace Monolog\Handler;
- * Base Handler class providing the Handler structure
- *
- * Classes extending it should (in most cases) only implement write($record)
- *
- */
 abstract class AbstractProcessingHandler extends AbstractHandler
 {
     /**
