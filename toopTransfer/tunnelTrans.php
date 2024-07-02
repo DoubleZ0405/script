@@ -1,16 +1,5 @@
 <?php
-/***************************************************************************
- *
- * Copyright (c) 2020 Tencent.com, Inc. All Rights Reserved
- * Tencent open optical platform(Toop)
- **************************************************************************/
 
-/**
- * Author: quanweizhou@tencent.com
- * Date: 2021/11/9
- * Time: 2:37 PM
- * Brief:
- */
 define ( 'ROOT_PATH', dirname ( __FILE__ ) );
 ini_set ( "memory_limit", "-1" );
 
