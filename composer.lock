@@ -1,0 +1,112 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7538bf673c33743997d801e4a21eca4f",
+    "packages": [
+        {
+            "name": "fatrbaby/hellobase",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fatrbaby/hellobase.git",
+                "reference": "b5f0f2c2c13250946c7f056e0c33df217e1f95ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fatrbaby/hellobase/zipball/b5f0f2c2c13250946c7f056e0c33df217e1f95ea",
+                "reference": "b5f0f2c2c13250946c7f056e0c33df217e1f95ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7.*.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HelloBase\\": "src/HelloBase",
+                    "Thrift\\": "bridge/Thrift"
+                },
+                "classmap": [
+                    "bridge/Hbase"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "fatrbaby",
+                    "email": "fatrbaby@qq.com"
+                }
+            ],
+            "description": "Hbase client php wrapper, via thirft",
+            "keywords": [
+                "big data",
+                "fatrbaby",
+                "hadoop",
+                "hbase",
+                "thirft"
+            ],
+            "support": {
+                "issues": "https://github.com/fatrbaby/hellobase/issues",
+                "source": "https://github.com/fatrbaby/hellobase/tree/1.0.0"
+            },
+            "time": "2019-09-18T10:41:51+00:00"
+        },
+        {
+            "name": "packaged/thrift",
+            "version": "0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/packaged/thrift.git",
+                "reference": "f5a3dd78cac06157a9ee42e029e603f7b6239aee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/packaged/thrift/zipball/f5a3dd78cac06157a9ee42e029e603f7b6239aee",
+                "reference": "f5a3dd78cac06157a9ee42e029e603f7b6239aee",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Thrift\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Apache Thrift",
+            "homepage": "http://thrift.apache.org/",
+            "keywords": [
+                "apache",
+                "thrift"
+            ],
+            "support": {
+                "issues": "https://github.com/packaged/thrift/issues",
+                "source": "https://github.com/packaged/thrift/tree/master"
+            },
+            "time": "2018-08-16T11:17:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
