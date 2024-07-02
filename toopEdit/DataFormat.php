@@ -1,16 +1,5 @@
 <?php
-/***************************************************************************
- *
- * Copyright (c) 2020 Tencent.com, Inc. All Rights Reserved
- * Tencent open optical platform(Toop)
- **************************************************************************/
 
-/**
- * Author: quanweizhou@tencent.com
- * Date: 2021/7/19
- * Time: 2:23 PM
- * Brief:
- */
 
 $str = "{
 	\"ticket_no\": \"202107010056\",

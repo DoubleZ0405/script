@@ -1,16 +1,5 @@
 <?php
-/***************************************************************************
- *
- * Copyright (c) 2020 Tencent.com, Inc. All Rights Reserved
- * Tencent open optical platform(Toop)
- **************************************************************************/
 
-/**
- * Author: quanweizhou@tencent.com
- * Date: 2020/7/10
- * Time: 10:13 AM
- * Brief:tpc/25段Ip池计算入库
- */
 require_once 'vendor/autoload.php';
 define ( 'ROOT_PATH', dirname ( __FILE__ ) );
 
